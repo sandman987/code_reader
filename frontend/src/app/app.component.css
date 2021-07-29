@@ -1,0 +1,55 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+.controls {
+  border-right: 1px solid #333;
+  overflow: auto;
+  width: 25vw;
+  height: 100%;
+}
+/* Custom Scrollbar */
+.controls::-webkit-scrollbar {
+  width: 0.7em;
+}
+
+.controls::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 5px;
+}
+
+.controls::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 5px;
+}
+
+.camera {
+  width: 75vw;
+  height: 100%;
+  overflow-y: hidden !important;
+}
+
+input.button,
+button.button {
+  height: 34px;
+  cursor: pointer;
+}
+
+.button-block {
+  display: block;
+}
+
+
+.button-func-wrap {
+  text-align: center;
+  display: flex;
+}
+
+.label {
+  color: #666666;
+  font-weight: 300;
+  font-size: 14px;
+}

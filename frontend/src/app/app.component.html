@@ -1,0 +1,10 @@
+
+<div class="wrapper">
+    <div class="controls">
+        <app-controls (infoMessage)="getInfoMessage($event)"></app-controls>
+    </div>
+
+    <div class="camera">
+        <app-camerafeed [message]="infoMessage"></app-camerafeed>
+    </div>
+</div>
